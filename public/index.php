@@ -99,7 +99,7 @@
 
             <div class="card shadow-sm">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Coronavirus</h4>
+                    <h4 class="my-0 font-weight-normal">Sistemas</h4>
                 </div>
                 <div class="card-body">
 
@@ -136,8 +136,8 @@
                     <h5>Servicio de Salud</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="https://i.saludiquique.cl/login">iOnline</a></li>
-                        <li><a class="text-muted" href="http://intranet.saludiquique.cl">Intranet</a> </li>
-                        <li><a class="text-muted" href="http://u.saludtarapaca.org/login">Login local</a></li>
+                        <li><a class="text-muted" href="https://www.saludiquique.app/claveunica/redirect/neosalud">NeoSalud</a> </li>
+                        <li><a class="text-muted" href="http://www.saludiquique.app/login">UniSalud</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
@@ -145,7 +145,7 @@
                     <ul class="list-unstyled text-small">
                         <li>Departamento TIC del SSI</li>
                         <li><a class="text-muted" href="mailto:sistemas.ssi@redsalud.gobc.">sistemas.ssi@redsalud.gob.cl</a></li>
-                        <small class="d-block mb-3 text-muted">&copy; 2021</small>
+                        <small class="d-block mb-3 text-muted">&copy; 2022</small>
                     </ul>
                 </div>
             </div>
