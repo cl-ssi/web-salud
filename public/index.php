@@ -99,7 +99,10 @@
 
             <div class="card shadow-sm">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Sistemas</h4>
+                    <h2 class="my-0 font-weight-normal">Sistemas</h2>
+                    <h6><a href="https://i.saludiquique.cl/login">iOnline</a></h6>
+                    <h6><a href="https://www.saludiquique.app/claveunica/redirect/neosalud">Neosalud</a></h6>
+                    <h6><a href="https://esmeralda.saludtarapaca.org/login">Esmeralda</a></h6>
                 </div>
                 <div class="card-body">
 
