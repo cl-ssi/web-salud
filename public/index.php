@@ -113,8 +113,7 @@
                     </li>                    
                     <hr>
                 </ul>
-            </div>               
-            </div>
+            </div>                          
 
             <div class="card shadow-sm">
                 <div class="card-header">
