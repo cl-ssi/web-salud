@@ -96,16 +96,88 @@
                     </div>
                 </div>
             </div>
-                      
+
 
             <div class="card shadow-sm">
                 <div class="card-header">
                     <h4 class="my-0 font-weight-normal">Estado de Urgencias</h4>
                 </div>
 
-        
+                <p class="text-muted mt-2 mb-2">Ultima actualización: 2021-01-31 03:15</p>
+
+                <table class="table table-sm">
+                    <tbody>
+                        <tr>
+                            <th>Establecimiento</th>
+                            <th>En espera</th>
+                            <th>En box</th>
+                        </tr>
+                        <tr>
+                            <td>SAPU Aguirre</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>SAR Sur</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>SAPU Videla</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>SAPU Guzman</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>SAPU Hector Reyno</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>SAPU Pedro Pulgar</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>SAPU El Boro</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                	</tbody>
+            
+            	</table>
+
             </div>
 
+			<!-- <div class="card shadow-sm">
+				<div class="card-header">
+					<h4 class="my-0 font-weight-normal">Estado de Urgencias</h4>
+				</div>
+
+				@php($array = json_decode(file_get_contents('status.json'),true))
+
+				<p class="text-muted mt-2 mb-2">Ultima actualización: {{ $array['updated'] }}</p>
+
+				<table class="table table-sm">
+					<tr>
+						<th>Establecimiento</th>
+						<th>En espera</th>
+						<th>En box</th>
+					</tr>
+					@foreach($array['data'] as $nombre => $element)
+						<tr>
+							<td>{{ $nombre }}</td>
+							<td>{{ $element['En espera'] }}</td>
+							<td>{{ $element['En box'] }}</td>
+						</tr>
+					@endforeach
+				</table>
+
+			</div> -->
 
             <div class="card shadow-md">
                 <div class="card-header">
