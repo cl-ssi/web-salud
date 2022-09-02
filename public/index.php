@@ -56,7 +56,7 @@
     </div>
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center container">
-        <h1 class="display-5 mb-3">Salud Tarapacá</h1>
+        <h1 class="display-5 mb-3">Portal de Sistemas - SS Iquique</h1>
         <div class="d-flex justify-content-center">
             <table class="align-self-center">
                 <tr>
@@ -87,7 +87,7 @@
                     </ul>
                     <div class="row justify-content-center">
                         <!-- Código para visualizar botón oficial iniciar sesión con ClaveÚnica-->
-                        <a class="btn-cu btn-m btn-color-estandar text-center" href="https://portal.saludtarapaca.org/claveunica"
+                        <a class="btn-cu btn-m btn-color-estandar text-center" href="https://saludiquique.app/claveunica"
                             title="Este es el botón Iniciar sesión de ClaveÚnica">
                             <span class="cl-claveunica"></span>
                             <span class="texto">Iniciar sesión</span>
@@ -96,32 +96,45 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card shadow-sm">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Nuestros sistemas</h4>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-action">
-                        <a class="btn btn-outline-primary btn-block" href="https://i.saludiquique.cl/login">iOnline</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <a class="btn btn-outline-primary btn-block" href="https://www.saludiquique.app/claveunica/redirect/neosalud">Neosalud</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <a class="btn btn-outline-primary btn-block" href="https://esmeralda.saludtarapaca.org/login">Esmeralda</a>
-                    </li>                    
-                    <hr>
-                </ul>
-            </div>                          
+                      
 
             <div class="card shadow-sm">
                 <div class="card-header">
                     <h4 class="my-0 font-weight-normal">Estado de Urgencias</h4>
                 </div>
 
-               
+        
+            </div>
 
+
+            <div class="card shadow-md">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">
+						<a href="https://portal.saludtarapaca.gob.cl" class="btn btn-secondary btn-block disabled">Portal de sistemas</a>
+					</h4>
+                </div>
+
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<a href="https://i.saludiquique.cl" class="btn btn-outline-info btn-block">iOnline</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://i.saludiquique.cl/login/external" class="btn btn-outline-info btn-block">Externos</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://neo.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">NeoSalud</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://uni.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">Unisalud</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://esmeralda.saludtarapaca.org" class="btn btn-outline-info btn-block">Esmeralda</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://i.saludiquique.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1" class="btn btn-outline-info btn-block">Sirmx</a>
+					</li>
+
+				</ul>
             </div>
 
 
@@ -137,15 +150,16 @@
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="http://www.gob.cl">Gobierno de Chile</a></li>
                         <li><a class="text-muted" href="http://www.minsal.cl">Ministerio de Salud</a></li>
-                        <li><a class="text-muted" href="http://www.saludiquique.cl">Servicio de Salud Iquique</a> </li>
+                        
                     </ul>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Servicio de Salud</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="https://i.saludiquique.cl/login">iOnline</a></li>
+                        <li><a class="text-muted" href="http://www.saludiquique.cl">Web Servicio de Salud Iquique</a> </li>
+                        <!-- <li><a class="text-muted" href="https://i.saludiquique.cl/login">iOnline</a></li>
                         <li><a class="text-muted" href="https://www.saludiquique.app/claveunica/redirect/neosalud">NeoSalud</a> </li>
-                        <li><a class="text-muted" href="http://www.saludiquique.app/login">UniSalud</a></li>
+                        <li><a class="text-muted" href="http://www.saludiquique.app/login">UniSalud</a></li> -->
                     </ul>
                 </div>
                 <div class="col-6 col-md">
@@ -153,7 +167,7 @@
                     <ul class="list-unstyled text-small">
                         <li>Departamento TIC del SSI</li>
                         <li><a class="text-muted" href="mailto:sistemas.ssi@redsalud.gobc.">sistemas.ssi@redsalud.gob.cl</a></li>
-                        <small class="d-block mb-3 text-muted">&copy; 2022</small>
+                        <small class="d-block mb-3 text-muted">2022</small>
                     </ul>
                 </div>
             </div>
