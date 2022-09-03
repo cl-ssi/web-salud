@@ -201,7 +201,7 @@
 						<!-- <a href="https://uni.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">UniSalud</a> -->
 					</li>
 					<li class="list-group-item">
-						<a href="https://esmeralda.saludtarapaca.org" class="btn btn-outline-info btn-block">Esmeralda</a>
+						<a href="https://esmeralda.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">Esmeralda</a>
 					</li>
 					<li class="list-group-item">
 						<a href="https://i.saludiquique.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1" class="btn btn-outline-info btn-block">Sirmx</a>
