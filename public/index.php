@@ -252,7 +252,7 @@
 
 		$(document).ready(function() {
 			$.ajax({
-				url:'http://wsssi-chile-s26t746c6q-tl.a.run.app/rayen-urgencia',
+				url:'https://wsssi-chile.saludtarapaca.gob.cl/rayen-urgencia',
 				contentType: "application/json",
 				dataType: 'json',
 				success: function(result){
