@@ -246,24 +246,6 @@
         </footer>
     </div>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script>
-
-		$(document).ready(function() {
-			$.ajax({
-				url:'https://wsssi-chile.saludtarapaca.gob.cl/rayen-urgencia',
-				contentType: "application/json",
-				dataType: 'json',
-				success: function(result){
-					console.log(result);
-				}
-			})
-		});
-
-	</script>
-
-
 </body>
 
 </html>
