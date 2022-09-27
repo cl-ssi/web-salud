@@ -107,32 +107,25 @@
                 <h4 class="my-0 font-weight-normal">Estado de Urgencias</h4>
             </div>
 
-            <?php
-            $curl = curl_init('https://wsssi-chile.saludtarapaca.gob.cl/rayen-urgencia');
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($curl, CURLOPT_HEADER, 0);
-            $result = curl_exec($curl);
-            curl_close($curl);
+            <div id="app">
+                <p class="text-muted mt-2 mb-2" v-if="loading">Cargando...</p>
+                <p class="text-muted mt-2 mb-2">Última actualización: {{establishments.updated}}</p>
 
-            $array = json_decode($result, true);
-
-            echo "<p class='text-muted mt-2 mb-2'>Última actualización: " . $array['updated'] . "</p>";
-            echo "<table class='table table-sm'>";
-            echo "<tr>";
-            echo "<th>Establecimiento</th>";
-            echo "<th>En espera</th>";
-            echo "<th>En box</th>";
-            echo "</tr>";
-            foreach ($array['data'] as $nombre => $element) {
-                echo "<tr>";
-                echo "<td>" . $nombre . "</td>";
-                echo "<td>" . $element['En espera'] . "</td>";
-                echo "<td>" . $element['En box'] . "</td>";
-                echo "</tr>";
-            }
-            echo "</table>";
-            ?>
-
+                <table class="table table-sm">
+                    <tbody>
+                    <tr>
+                        <th>Establecimiento</th>
+                        <th>En espera</th>
+                        <th>En box</th>
+                    </tr>
+                    <tr v-for="(establishment, index) in establishments.data">
+                        <td>{{index}}</td>
+                        <td>{{establishment['En espera']}}</td>
+                        <td>{{establishment['En box']}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <div class="card shadow-md">
@@ -206,6 +199,34 @@
         </div>
     </footer>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+        integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.10/vue.min.js"
+        integrity="sha512-H8u5mlZT1FD7MRlnUsODppkKyk+VEiCmncej8yZW1k/wUT90OQon0F9DSf/2Qh+7L/5UHd+xTLrMszjHEZc2BA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    new Vue({
+        el: "#app",
+        data() {
+            return {
+                establishments: [],
+                loading: true,
+            }
+        },
+        mounted: function () {
+            axios
+                .get('http://localhost/web-salud/public/functions.php?f=get-rayen-urgency-data')
+                .then(response => {
+                    this.establishments = response.data
+                })
+                .finally(() => this.loading = false)
+        }
+    })
+</script>
 
 </body>
 
