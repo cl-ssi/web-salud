@@ -113,9 +113,9 @@
 
             <div id="app">
                 <p class="text-muted mt-2 mb-2" v-if="loading">Cargando, por favor espere... <i class="fas fa-spinner fa-spin"></i></p>
-                <p class="text-muted mt-2 mb-2">Última actualización: {{establishments.updated}}</p>
+                <p class="text-muted mt-2 mb-2" v-if="!loading" >Última actualización: {{establishments.updated}}</p>
 
-                <table class="table table-sm">
+                <table class="table table-sm" v-if="!loading">
                     <tbody>
                     <tr>
                         <th>Establecimiento</th>
