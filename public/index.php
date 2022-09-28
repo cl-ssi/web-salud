@@ -17,6 +17,10 @@
           crossorigin="anonymous">
     <link href="css/cu.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
@@ -108,7 +112,7 @@
             </div>
 
             <div id="app">
-                <p class="text-muted mt-2 mb-2" v-if="loading">Cargando...</p>
+                <p class="text-muted mt-2 mb-2" v-if="loading">Cargando, por favor espere... <i class="fas fa-spinner fa-spin"></i></p>
                 <p class="text-muted mt-2 mb-2">Última actualización: {{establishments.updated}}</p>
 
                 <table class="table table-sm">
