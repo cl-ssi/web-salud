@@ -19,7 +19,7 @@ function getRayenUrgencyData(): void
 
     // The callable will only be executed on a cache miss.
     $value = $cache->get('rayen_urgency_cache', function (ItemInterface $item) {
-        $item->expiresAfter(60 * 5);
+        $item->expiresAfter(60 * 6);
 
         $curl = curl_init('https://wsssi-chile.saludtarapaca.gob.cl/rayen-urgencia');
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
