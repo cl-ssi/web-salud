@@ -223,6 +223,7 @@
         },
         mounted: function () {
             axios
+                // .get('http://localhost/web-salud/public/functions.php?f=get-rayen-urgency-data')
                 .get('https://portal.saludtarapaca.gob.cl/functions.php?f=get-rayen-urgency-data')
                 .then(response => {
                     this.establishments = response.data
