@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Sitio web del Servicio de Salud Iquique">
-    <meta name="author" content="Depto TIC - Servicio de Salud Iquique">
-    <meta name="author" content="Alvaro Torres Fuchslocher">
+    <meta name="author" content="Depto TIC - Servicio de Salud Tarapacá">
     <title>Salud Tarapacá</title>
 
     <!-- Styles -->
@@ -64,7 +63,7 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center container">
-    <h1 class="display-5 mb-3">Portal de Sistemas - SS Iquique</h1>
+    <h1 class="display-5 mb-3">Portal de Sistemas - SS Tarapacá</h1>
     <div class="d-flex justify-content-center">
         <table class="align-self-center">
             <tr>
@@ -73,7 +72,7 @@
             </tr>
         </table>
     </div>
-    <p class="text-muted mt-4">Bienvenido al portal de sistemas del Servicio de Salud de Iquique.</p>
+    <p class="text-muted mt-4">Bienvenido al portal de sistemas del Servicio de Salud de Tarapacá.</p>
 
 </div>
 
@@ -135,17 +134,17 @@
         <div class="card shadow-md">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">
-                    <a href="https://portal.saludtarapaca.gob.cl" class="btn btn-secondary btn-block disabled">Portal de
-                        sistemas</a>
+                    <a href="https://portal.saludtarapaca.gob.cl" class="btn btn-secondary btn-block disabled">
+                        Portal de sistemas</a>
                 </h4>
             </div>
 
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl" class="btn btn-outline-info btn-block">iOnline</a>
+                    <a href="https://i.saludtarapaca.cl" class="btn btn-outline-info btn-block">iOnline</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl/login/external"
+                    <a href="https://i.saludtarapaca.cl/login/external"
                        class="btn btn-outline-info btn-block">Externos</a>
                 </li>
                 <li class="list-group-item">
@@ -186,9 +185,6 @@
                 <h5>Servicio de Salud</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="http://www.saludiquique.cl">Web Servicio de Salud Iquique</a></li>
-                    <!-- <li><a class="text-muted" href="https://i.saludiquique.cl/login">iOnline</a></li>
-                    <li><a class="text-muted" href="https://www.saludiquique.app/claveunica/redirect/neosalud">NeoSalud</a> </li>
-                    <li><a class="text-muted" href="http://www.saludiquique.app/login">UniSalud</a></li> -->
                 </ul>
             </div>
             <div class="col-6 col-md">
