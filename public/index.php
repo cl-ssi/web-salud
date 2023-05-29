@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sitio web del Servicio de Salud Iquique">
+    <meta name="description" content="Sitio web del Servicio de Salud Tarapacá">
     <meta name="author" content="Depto TIC - Servicio de Salud Tarapacá">
     <title>Salud Tarapacá</title>
 
@@ -158,7 +158,7 @@
                        class="btn btn-outline-info btn-block">Esmeralda</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1"
+                    <a href="https://i.saludtarapaca.gob.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1"
                        class="btn btn-outline-info btn-block">Sirmx</a>
                 </li>
 
@@ -171,7 +171,7 @@
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
             <div class="col-12 col-md">
-                <img class="mb-2" src="images/logo_ssi_100px.png" alt="Logo Servicio de Salud Iquique">
+                <img class="mb-2" src="images/logo_sst_100px.png" alt="Logo Servicio de Salud Tarapacá">
             </div>
             <div class="col-6 col-md">
                 <h5>Portales del estado</h5>
