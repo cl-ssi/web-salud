@@ -144,7 +144,7 @@
                     <a href="https://i.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">iOnline</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludtarapaca.cl/login/external"
+                    <a href="https://i.saludtarapaca.gob.cl/login/external"
                        class="btn btn-outline-info btn-block">Externos</a>
                 </li>
                 <li class="list-group-item">
