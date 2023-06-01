@@ -58,7 +58,7 @@
     <h5 class="my-0 mr-md-auto font-weight-normal"><img src="images/gob-header.svg" alt="Logo del gobierno de chile">
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="http://www.saludiquique.cl">Web Servicio de Salud</a>
+        <a class="p-2 text-dark" href="http://www.saludtarapaca.gob.cl">Web Servicio de Salud</a>
     </nav>
 </div>
 
@@ -141,25 +141,28 @@
 
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <a href="https://i.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">iOnline</a>
+                    <a href="https://i.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">iOnline</a>
                 </li>
                 <li class="list-group-item">
                     <a href="https://i.saludtarapaca.gob.cl/login/external"
                        class="btn btn-outline-info btn-block">Externos</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://neo.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">NeoSalud</a>
+                    <a href="https://neo.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">NeoSalud</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://uni.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">UniSalud</a>
+                    <a href="https://uni.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">UniSalud</a>
                 </li>
                 <li class="list-group-item">
                     <a href="https://esmeralda.saludtarapaca.gob.cl"
                        class="btn btn-outline-info btn-block">Esmeralda</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludtarapaca.gob.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1"
-                       class="btn btn-outline-info btn-block">Sirmx</a>
+                    <a href="https://siremx.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">Siremx</a>
                 </li>
 
             </ul>
@@ -190,8 +193,8 @@
             <div class="col-6 col-md">
                 <h5>Desarrollado por</h5>
                 <ul class="list-unstyled text-small">
-                    <li>Departamento TIC del SSI</li>
-                    <li><a class="text-muted" href="mailto:sistemas.ssi@redsalud.gobc.">sistemas.ssi@redsalud.gob.cl</a>
+                    <li>Departamento TIC del SST</li>
+                    <li><a class="text-muted" href="mailto:sistemas.sst@redsalud.gob.cl">sistemas.sst@redsalud.gob.cl</a>
                     </li>
                     <small class="d-block mb-3 text-muted">2022</small>
                 </ul>
