@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sitio web del Servicio de Salud Iquique">
-    <meta name="author" content="Depto TIC - Servicio de Salud Iquique">
-    <meta name="author" content="Alvaro Torres Fuchslocher">
+    <meta name="description" content="Sitio web del Servicio de Salud Tarapacá">
+    <meta name="author" content="Depto TIC - Servicio de Salud Tarapacá">
     <title>Salud Tarapacá</title>
 
     <!-- Styles -->
@@ -59,12 +58,12 @@
     <h5 class="my-0 mr-md-auto font-weight-normal"><img src="images/gob-header.svg" alt="Logo del gobierno de chile">
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="http://www.saludiquique.cl">Web Servicio de Salud</a>
+        <a class="p-2 text-dark" href="http://www.saludtarapaca.gob.cl">Web Servicio de Salud</a>
     </nav>
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center container">
-    <h1 class="display-5 mb-3">Portal de Sistemas - SS Iquique</h1>
+    <h1 class="display-5 mb-3">Portal de Sistemas - SS Tarapacá</h1>
     <div class="d-flex justify-content-center">
         <table class="align-self-center">
             <tr>
@@ -73,7 +72,7 @@
             </tr>
         </table>
     </div>
-    <p class="text-muted mt-4">Bienvenido al portal de sistemas del Servicio de Salud de Iquique.</p>
+    <p class="text-muted mt-4">Bienvenido al portal de sistemas del Servicio de Salud de Tarapacá.</p>
 
 </div>
 
@@ -135,32 +134,35 @@
         <div class="card shadow-md">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">
-                    <a href="https://portal.saludtarapaca.gob.cl" class="btn btn-secondary btn-block disabled">Portal de
-                        sistemas</a>
+                    <a href="https://portal.saludtarapaca.gob.cl" class="btn btn-secondary btn-block disabled">
+                        Portal de sistemas</a>
                 </h4>
             </div>
 
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl" class="btn btn-outline-info btn-block">iOnline</a>
+                    <a href="https://i.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">iOnline</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl/login/external"
+                    <a href="https://i.saludtarapaca.gob.cl/login/external"
                        class="btn btn-outline-info btn-block">Externos</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://neo.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">NeoSalud</a>
+                    <a href="https://neo.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">NeoSalud</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://uni.saludtarapaca.gob.cl" class="btn btn-outline-info btn-block">UniSalud</a>
+                    <a href="https://uni.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">UniSalud</a>
                 </li>
                 <li class="list-group-item">
                     <a href="https://esmeralda.saludtarapaca.gob.cl"
                        class="btn btn-outline-info btn-block">Esmeralda</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://i.saludiquique.cl/claveunica?redirect=L3NpcmVteC9sb2dpbmN1"
-                       class="btn btn-outline-info btn-block">Sirmx</a>
+                    <a href="https://siremx.saludtarapaca.gob.cl" 
+                        class="btn btn-outline-info btn-block">Siremx</a>
                 </li>
 
             </ul>
@@ -172,7 +174,7 @@
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
             <div class="col-12 col-md">
-                <img class="mb-2" src="images/logo_ssi_100px.png" alt="Logo Servicio de Salud Iquique">
+                <img class="mb-2" src="images/logo_sst_100px.png" alt="Logo Servicio de Salud Tarapacá">
             </div>
             <div class="col-6 col-md">
                 <h5>Portales del estado</h5>
@@ -186,16 +188,13 @@
                 <h5>Servicio de Salud</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="http://www.saludiquique.cl">Web Servicio de Salud Iquique</a></li>
-                    <!-- <li><a class="text-muted" href="https://i.saludiquique.cl/login">iOnline</a></li>
-                    <li><a class="text-muted" href="https://www.saludiquique.app/claveunica/redirect/neosalud">NeoSalud</a> </li>
-                    <li><a class="text-muted" href="http://www.saludiquique.app/login">UniSalud</a></li> -->
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5>Desarrollado por</h5>
                 <ul class="list-unstyled text-small">
-                    <li>Departamento TIC del SSI</li>
-                    <li><a class="text-muted" href="mailto:sistemas.ssi@redsalud.gobc.">sistemas.ssi@redsalud.gob.cl</a>
+                    <li>Departamento TIC del SST</li>
+                    <li><a class="text-muted" href="mailto:sistemas.sst@redsalud.gob.cl">sistemas.sst@redsalud.gob.cl</a>
                     </li>
                     <small class="d-block mb-3 text-muted">2022</small>
                 </ul>
