@@ -50,6 +50,24 @@
                 font-size: 3.5rem;
             }
         }
+
+        .th_azul {
+            background-color: #006FB3;
+            color: white
+        }
+
+        .fondo_celeste td {
+            background-color: #ECF9FF;
+            border-bottom: 1px solid white;
+        }
+
+        .texto_izquierda {
+            text-align: left;
+        }
+
+        .texto_10 {
+            font-size: 10px;
+        }
     </style>
 </head>
 
@@ -114,15 +132,17 @@
                 <p class="text-muted mt-2 mb-2" v-if="loading">Cargando, por favor espere... <i class="fas fa-spinner fa-spin"></i></p>
                 <p class="text-muted mt-2 mb-2" v-if="!loading" >Última actualización: {{establishments.updated}}</p>
 
-                <table class="table table-sm" v-if="!loading">
+                <table class="table table-sm fondo_celeste" v-if="!loading">
                     <tbody>
-                    <tr>
+                    <tr class="th_azul">
                         <th>Establecimiento</th>
                         <th>En espera</th>
                         <th>En box</th>
                     </tr>
                     <tr v-for="(establishment, index) in establishments.data">
-                        <td>{{index}}</td>
+                        <td class="texto_izquierda">
+                            <i class="fa-solid fa-circle gb_rojo texto_10"></i>&nbsp;&nbsp;{{index}}
+                        </td>
                         <td>{{establishment['En espera']}}</td>
                         <td>{{establishment['En box']}}</td>
                     </tr>
